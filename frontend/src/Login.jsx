@@ -40,9 +40,19 @@ function Login() {
     <div style={{ backgroundColor: '#121212', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white', fontFamily: 'sans-serif' }}>
       <div style={{ border: '1px solid #333', padding: '40px', borderRadius: '8px', width: '350px', backgroundColor: '#1e1e1e' }}>
         
-        <div style={{ textAlign: 'center', marginBottom: '30px', padding: '10px', backgroundColor: '#333', borderRadius: '4px' }}>
-          App/Web Logo
-        </div>
+       <h1 style={{ 
+  textAlign: 'center', 
+  margin: '0 0 30px 0', 
+  fontSize: '32px', 
+  fontWeight: '900',
+  letterSpacing: '2px',
+  /* This creates a slick gradient text effect matching your purple button */
+  background: 'linear-gradient(90deg, #a855f7, #6366f1)',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent'
+}}>
+  HRMS
+</h1>
         
         <form onSubmit={handleSignIn}>
           <div style={{ marginBottom: '20px' }}>
