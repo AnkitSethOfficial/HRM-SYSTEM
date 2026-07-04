@@ -13,10 +13,14 @@ app.use(express.json()); // Allows the server to read JSON data sent from the fr
 // Import routes
 const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
+const attendanceRoutes = require('./routes/attendanceRoutes');
+const timeOffRoutes = require('./routes/timeOffRoutes');
 
 // Use routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/attendance', attendanceRoutes);
+app.use('/api/timeoff', timeOffRoutes);
 
 // Define the port (defaults to 5000 if not found in .env)
 const PORT = process.env.PORT || 5000;
