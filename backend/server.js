@@ -10,6 +10,11 @@ const app = express();
 // Set up middleware
 app.use(cors()); // Allows the React frontend to securely talk to this backend
 app.use(express.json()); // Allows the server to read JSON data sent from the frontend
+// Import routes
+const authRoutes = require('./routes/authRoutes');
+
+// Use routes
+app.use('/api/auth', authRoutes);
 
 // Define the port (defaults to 5000 if not found in .env)
 const PORT = process.env.PORT || 5000;
