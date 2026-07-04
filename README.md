@@ -1,6 +1,6 @@
 # Human Resource Management System (HRMS)
 
-A Human Resource Management System (HRMS) built to simplify and digitize HR operations for organizations. This project enables secure employee management, attendance tracking, leave management, payroll visibility, and role-based access for Admins and Employees. 0
+A Human Resource Management System (HRMS) built to simplify and digitize HR operations for organizations. This project enables secure employee management, attendance tracking, leave management, payroll visibility, and role-based access for Admins and Employees.
 
 ## Features
 
@@ -21,7 +21,7 @@ A Human Resource Management System (HRMS) built to simplify and digitize HR oper
   
 ## Project Goal
 
-To provide an efficient, secure, and user-friendly platform that automates HR processes and improves workforce management. 1
+To provide an efficient, secure, and user-friendly platform that automates HR processes and improves workforce management.
 
 ## License
 
