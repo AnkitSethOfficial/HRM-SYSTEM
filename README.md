@@ -4,20 +4,18 @@ A Human Resource Management System (HRMS) built to simplify and digitize HR oper
 
 ## Features
 
-- Secure Authentication (Sign Up & Sign In)
+- Secure Authentication (Sign in)
 - Role-Based Access (Admin & Employee)
 - Employee Profile Management
-- Attendance Tracking (Daily & Weekly)
+- Attendance Tracking
 - Leave Request & Approval Workflow
-- Payroll & Salary Management
-- Admin Dashboard for Employee Management
 
 ## Tech Stack
 
 - Frontend: React.js
 - Backend: Node.js & Express.js
 - Database: MongoDB
-- Authentication:
+- Authentication: Role-based authorization using JWT and bcrypt password hashing
   
 ## Project Goal
 
