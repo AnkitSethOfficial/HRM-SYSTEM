@@ -1,6 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal Vite boilerplate for React development, pre-configured with fast HMR and essential ESLint rules.
+​Kickstart your React project with this lightweight Vite template, featuring built-in HMR and pre-configured code linting.
+​A streamlined React + Vite setup designed for speed, fully equipped with seamless HMR and basic ESLint configurations.
 
 Currently, two official plugins are available:
 
